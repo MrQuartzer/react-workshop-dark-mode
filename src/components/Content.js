@@ -11,7 +11,7 @@ const Content = () =>{
                 <h1>Nantawat</h1>
                 <p>DarkMode Workshop</p>
             </div>
-            <img src={light} alt="logo"></img>
+            <img src={theme==="dark"?dark:light} alt="logo"></img>
         </main>
     )
 }
