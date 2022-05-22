@@ -11,7 +11,7 @@ const Title = () =>{
         )
     }
     return(
-        <header>
+        <header className={theme==="dark"?"dark":"light"}>
             <span>Mode [{theme}]</span>
             <Switch
                 onChange={toggleSwitch}
